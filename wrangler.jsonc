@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "at-work-social",
+  "compatibility_date": "2025-06-30",
+  // Serve the static site directly from the ./public directory.
+  // No Worker script is required for a purely static site.
+  "assets": {
+    "directory": "./public",
+    "not_found_handling": "404-page"
+  }
+}

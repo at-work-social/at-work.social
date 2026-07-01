@@ -1,0 +1,14 @@
+{
+  "name": "at-work-social",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Static boilerplate site for Work Atmosphere (at-work.social), deployable to Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
