@@ -69,24 +69,23 @@ body {
   fill: none;
 }
 
-/* Header + theme toggle */
-.site-header {
-  display: flex;
-  justify-content: flex-end;
-  padding: 1rem 1.25rem;
-}
-
+/* Theme toggle */
 .theme-toggle {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 40px;
-  height: 40px;
+  /* Square, sized to match the link buttons' rendered height:
+     line-height (1.6rem) + vertical padding (2 x 0.7rem) + border (2 x 1px). */
+  width: calc(3rem + 2px);
+  height: calc(3rem + 2px);
+  flex: 0 0 auto;
+  padding: 0;
   border: 1px solid var(--border);
-  border-radius: 10px;
+  border-radius: 12px;
   background: var(--bg-elev);
   color: var(--fg);
   cursor: pointer;
+  box-shadow: var(--shadow);
   transition: border-color 0.2s ease, transform 0.1s ease;
 }
 
