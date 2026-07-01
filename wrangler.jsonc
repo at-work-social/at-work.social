@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "at-work-social",
+  "name": "at-work-social-app",
   "compatibility_date": "2025-06-30",
   // Serve the static site directly from the ./public directory.
   // No Worker script is required for a purely static site.
